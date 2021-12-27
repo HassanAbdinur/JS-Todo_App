@@ -31,3 +31,7 @@ body {
     line-height: 25px !important;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+

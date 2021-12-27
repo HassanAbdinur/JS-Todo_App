@@ -11,3 +11,11 @@ function createListElement() {
     list.appendChild(li);
     input.value = '';
 }
+
+function addList(event) {
+    if (inputLength() > 0 && event.keyCode === 13) {
+        createListElement();
+    }
+}
+
+input.addEventListener("keypress", addList);

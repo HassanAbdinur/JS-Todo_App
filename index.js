@@ -1,5 +1,5 @@
 var input = document.getElementById('userinput');
-var list = document.querySelector('ul');
+var list = document.getElementById('list');
 
 function inputLength() {
     return input.value.length;

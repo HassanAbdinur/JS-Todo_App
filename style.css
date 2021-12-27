@@ -10,5 +10,16 @@ body {
 }
 
 .container {
-    text-align: center;
+    /* text-align: center; */
+    position: relative;
+    margin: 4% auto;
+    width: 360px;
+    height: 660px;
+    border: 1.5px solid #e6e6e6;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
 }
+
+
+

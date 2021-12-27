@@ -35,3 +35,8 @@ h1 {
     text-transform: uppercase;
 }
 
+.todo-body::-webkit-scrollbar {
+    background: transparent;
+    width: 1px;
+}
+

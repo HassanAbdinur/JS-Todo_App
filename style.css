@@ -40,3 +40,8 @@ h1 {
     width: 1px;
 }
 
+.todo-list {
+    list-style-type: none;
+    text-align: center;
+}
+

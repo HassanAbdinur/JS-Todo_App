@@ -3,7 +3,7 @@ var list = document.getElementById('list');
 
 const inputLength = () => input.value.length
 
-function createListElement() {
+const createListElement = () => {
     var li = document.createElement('li');
     li.appendChild(document.createTextNode(input.value));
     list.appendChild(li);

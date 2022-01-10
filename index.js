@@ -10,7 +10,7 @@ const createListElement = () => {
     input.value = '';
 }
 
-function addList(event) {
+const addList = (event) => {
     if (inputLength() > 0 && event.keyCode === 13) {
         createListElement();
     }

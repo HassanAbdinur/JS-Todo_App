@@ -1,9 +1,7 @@
 var input = document.getElementById('userinput');
 var list = document.getElementById('list');
 
-function inputLength() {
-    return input.value.length;
-}
+const inputLength = () => input.value.length
 
 function createListElement() {
     var li = document.createElement('li');

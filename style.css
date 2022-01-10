@@ -43,6 +43,7 @@ h1 {
 .todo-list {
     list-style-type: none;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .todoInput {
